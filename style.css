@@ -1,0 +1,63 @@
+.main-title {
+	text-align: center;
+    color: white;
+    /* font-weight: bold; */
+}
+body{
+	background: black url(https://images3.alphacoders.com/106/1061065.png);
+	/* background-repeat: no-repeat; */
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
+#order-id-input{
+    background: transparent;
+    opacity: 0.8;
+    color:white
+}
+
+.order-id-input-wrapper {
+	width: 500px;
+	margin: 25px auto;
+}
+
+.order-status-card {
+	margin: 20px 0;
+}
+
+.order-status-card .card {
+	border-radius: 20px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+
+.order-status-card .card-header{
+	background:black;
+    color: white;
+	border-radius: 20px 20px 0 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.order-status-card .card-footer{
+	background: black;
+  color: white;
+	border-radius: 0 0 20px 20px;
+}
+
+.order-status-card .card-text {
+	margin-bottom: 0.5rem;
+}
+
+.order-status-card .rounded-pill {
+	font-size: 1em;
+}
+
+.cancel-btn:hover {
+	cursor: pointer;
+}
+
